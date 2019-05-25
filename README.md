@@ -1,3 +1,9 @@
+# Changes
+
+Toggled on Doze support for better battery life with GCM.
+
+# Original README:
+
 This is a community supported repo to support integration of [microG](https://microg.org/) with RattlesnakeOS. The author of RattlesnakeOS doesn't recommend the use of microG, but since it's a highly requested feature I wanted to at least host it in a known place where others can help contribute. It is currently the required signature spoofing patch and just a subset of prebuilt packages from here: https://github.com/lineageos4microg/android_prebuilts_prebuiltapks.
 
 ## How to
