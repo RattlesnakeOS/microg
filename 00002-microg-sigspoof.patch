@@ -20,12 +20,21 @@ diff --git a/frameworks/base/core/res/res/values/config.xml b/frameworks/base/co
 index 0b5dd7e..bbdba64 100644
 --- a/frameworks/base/core/res/res/values/config.xml
 +++ b/frameworks/base/core/res/res/values/config.xml
-@@ -1650,6 +1650,8 @@
+@@ -216,7 +216,7 @@
+          dozing).  This should be enabled if you have such services and expect apps to
+          correctly use them when installed on your device.  Otherwise, keep this disabled
+          so that applications can still use their own mechanisms. -->
+-    <bool name="config_enableAutoPowerModes">true</bool>
++    <bool name="config_enableAutoPowerModes">false</bool>
+ 
+     <!-- The threshold angle for any motion detection in auto-power save modes.
+          In hundreths of a degree. -->
+@@ -1658,8 +1658,6 @@
      <string-array name="config_locationProviderPackageNames" translatable="false">
          <!-- The standard AOSP fused location provider -->
          <item>com.android.location.fused</item>
-+        <!-- The (faked) microg fused location provider (a free reimplementation) -->
-+        <item>com.google.android.gms</item>
+-	<!-- The (faked) microg fused location provider (a free reimplementation) -->
+-	<item>com.google.android.gms</item>
      </string-array>
  
      <!-- This string array can be overriden to enable test location providers initially. -->
