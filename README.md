@@ -1,7 +1,6 @@
 # Changes
 
-- Toggled on Doze support for better battery life with GCM
-- Updated GmsCore to v0.2.7.17455-mapbox
+Toggled on Doze support for better battery life with GCM.
 
 # Original README:
 
