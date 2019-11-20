@@ -18,7 +18,7 @@ modules = ["GmsCore","GsfProxy","FakeStore","com.google.android.maps.jar"]
 repo = "https://github.com/nullchinchilla/microg"
 ```
 
-A few points about the microG setup. Due to the way patches are applied in the stack, if you try to combine other patches, the build may fail. The combination of this with other patches hasn't been tested. The first time you boot, open the microG app and do the self-test. Give it the permissions and add location backends. If it still complains that network location is not enabled, you need to toggle the location from main android settings once for it to work. Ideally, you should get all check boxes after that. Finally, in Chromium, go to site settings, and disable the location permission for google.com; it causes crashes in the microG setup.
+A few points about the microG setup. Due to the way patches are applied in the stack, if you try to combine other patches, the build may fail. The combination of this with other patches hasn't been tested. The first time you boot, open the microG app and do the self-test. Give it the permissions and add location backends. If it still complains that network location is not enabled, you need to toggle the location from main android settings once for it to work. Ideally, you should get all check boxes after that.
 
 ## Contributors
 * https://github.com/pgera
