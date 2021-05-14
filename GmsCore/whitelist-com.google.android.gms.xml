@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2021 davze
-     SPDX-License-Identifer: GPL-3.0-or-later
-     This file contains whitelists for system functions to be granted by default.
-     Granting these permissions is necessary, e.g. power saving exception
--->
-
-<!-- Allow to run microG GmsCore while in doze mode-->
+<!-- microG GmsCore must always have network access for GCM. -->
 <config>
     <allow-in-power-save package="com.google.android.gms" />
+    <allow-in-data-usage-save package="com.google.android.gms" />
+    <allow-unthrottled-location package="com.google.android.gms" />
 </config>
